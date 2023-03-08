@@ -6,3 +6,9 @@
 
 - A aplicação utilizou o método SPA(Single Page Aplication)
 
+
+### Execução do projeto
+
+- `npm install`
+- `npm start`
+
