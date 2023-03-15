@@ -27,4 +27,11 @@
  # Pasta src
 
  - Pasta `style` contém o arquivo `global.ts` contém a declaração da estilização global do projeto.
+ - Pasta `components` contém os pedaços de código que podem ser reutilizados na aplicação.
+ - Pasta `assets` contém a pasta images com as imagens utilizadas no projeto.
 
+###  Três princípios básicos do React
+
+1. Componentização
+2. 
+3. Genrenciamento de estado

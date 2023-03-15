@@ -25,4 +25,9 @@ html {
         font-size: 87.5%;
     }
 }
+
+h1{
+    color: var(--purple-600);
+    font-family: 'Inter';
+}
 `
