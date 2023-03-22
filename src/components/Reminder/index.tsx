@@ -1,10 +1,11 @@
+import { Container } from "./styled";
 
 export const Reminder = () => {
   return (
-    <section>
+    <Container>
       <h2>Título</h2>
       <p>Descrição</p>
-    </section>
+    </Container>
   );
 }
 

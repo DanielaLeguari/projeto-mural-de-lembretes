@@ -1,16 +1,13 @@
 import { Reminder } from "../Reminder";
+import { Title } from "../Title";
 import { Container, Grid } from "./styled";
 
 export const StickyNotes = () => {
   return (
     <Container>
-      <section>
-        <h1>
-          Lembretes -
-        </h1>
-      </section>
+      <Title />
       <Grid>
-        <Reminder/>
+        <Reminder />
       </Grid>
     </Container>
   );
