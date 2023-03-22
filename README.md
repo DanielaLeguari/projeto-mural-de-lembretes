@@ -35,3 +35,6 @@
 1. Componentização
 2. 
 3. Genrenciamento de estado
+
+### Função useState()
+- armazenar uma informação em memória, para podemos resgatá-la quando necessário.

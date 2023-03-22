@@ -10,9 +10,13 @@ export const Container = styled.header`
     height: 10vh;
     padding: 0 4rem;
 
-    background-color: var(--purple-600);
+    background-color: var(--header);
 
     > img {
         height: 2.5rem;
     }
-` 
+
+    > p {
+        color: var(--font-white);
+    }
+` ;
