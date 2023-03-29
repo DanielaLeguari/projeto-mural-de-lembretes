@@ -2,13 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-    --purple-300: #E9c5ff;
-    --purple-600: #6200ee;
-    --purple-900: #250059;
-    --header: #ad96dc;
+    --card:#d9dac9;
+    --header: #728f8d;
 
     --font-black: #1c1c1c;
     --font-white: #ffffff;
+    --font-blue: #22362f;
 }
 
 * {

@@ -7,8 +7,8 @@ export const Container = styled.form`
     align-items: center;
     justify-content: space-around;
 
-    width: 40vw;
-    height: 80vh;
+    width: 40%;
+    height: 80%;
 
     position: absolute;
     top: 10%;
@@ -43,7 +43,7 @@ export const Container = styled.form`
         }
   }
     > h1 {
-        color: var(--purple-600);
+        color: var(--header);
         font-family: "Inter";
     }
 `;

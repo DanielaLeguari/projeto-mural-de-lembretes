@@ -15,7 +15,7 @@ export const Container = styled.div`
         margin: 2rem 0;
 
         > h1 {
-        color: var(--purple-600);
+        color: var(--header);
         font-family: "Inter";
         }
   }
@@ -43,7 +43,7 @@ export const Grid = styled.div`
         gap: 1rem;
         padding: 1rem;
 
-        background-color: var(--purple-300);
+        background-color: var(--card);
         border-radius: 0.4rem;
 
         > h2 {
