@@ -2,22 +2,27 @@ import { useState } from "react";
 
 import { Button } from "../Button";
 import { Logo } from "../Logo";
+import { NewStickModal } from "../NewStickModal";
 
 import { Container } from "./styles";
 
 
 export const Header = () => {
-    const [number, setNumber] = useState(0);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const increment = () => {
-        setNumber(number + 1);
+    const handleOpenModal = () => {
+        setIsModalOpen(true);
+    }
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
     }
 
     return (
         <Container>
-            <Logo/>
-            <p>{number}</p>
-            <Button title="Adicionar Lembrete" click={increment}/>
+            <Logo />
+            <NewStickModal isOpen={isModalOpen} onRequestClose={handleCloseModal} />
+            <Button title="Adicionar Lembrete" click={() => handleOpenModal()} />
         </Container>
     );
 }

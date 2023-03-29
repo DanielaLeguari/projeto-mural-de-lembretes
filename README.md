@@ -20,6 +20,9 @@
  `npm i @types/styled-components -D`
 
 
+### react-modal
+`npm i react-modal`
+`npm i @types/react-modal`
  ## Estrutura do projeto
 
  # Pasta Public

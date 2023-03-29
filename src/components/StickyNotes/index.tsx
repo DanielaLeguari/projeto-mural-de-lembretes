@@ -1,13 +1,23 @@
-import { Reminder } from "../Reminder";
-import { Title } from "../Title";
+
 import { Container, Grid } from "./styled";
+import NotesContext from "../../hooks/notesContext";
+
+import { useContext } from "react";
 
 export const StickyNotes = () => {
+  const { notes } = useContext<any>(NotesContext);
   return (
     <Container>
-      <Title />
+      <div className="reminderTitle">
+        <h1>Lembretes - {notes.length}</h1>
+      </div>
       <Grid>
-        <Reminder />
+        {notes.map((notes: any) => (
+          <div key={notes.title}>
+            <h2>{notes.title}</h2>
+            <p>{notes.description}</p>
+          </div>
+        ))}
       </Grid>
     </Container>
   );
