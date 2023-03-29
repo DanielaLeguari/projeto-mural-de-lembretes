@@ -33,11 +33,5 @@
  - Pasta `components` contém os pedaços de código que podem ser reutilizados na aplicação.
  - Pasta `assets` contém a pasta images com as imagens utilizadas no projeto.
 
-###  Três princípios básicos do React
-
-1. Componentização
-2. 
-3. Genrenciamento de estado
-
 ### Função useState()
 - armazenar uma informação em memória, para podemos resgatá-la quando necessário.
